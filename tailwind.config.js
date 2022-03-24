@@ -20,6 +20,28 @@ module.exports = {
 
       screens: {
         "3xl": "1920px"
+      },
+
+      gridTemplateRows: {
+        "homepage-mobile-description": "110px 60px 110px 60px 110px 60px 110px 60px 110px 60px 110px 60px 110px"
+      },
+
+      gridRowStart: {
+        '8': '8',
+        '9': '9',
+        '10': '10',
+        '11': '11',
+        '12': '12',
+        '13': '13',
+      },
+
+      gridRowEnd: {
+        '8': '8',
+        '9': '9',
+        '10': '10',
+        '11': '11',
+        '12': '12',
+        '13': '13',
       }
     },
   },

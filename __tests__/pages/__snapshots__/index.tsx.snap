@@ -1,5 +1,93 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Tests the <Description> Component Renders correctly 1`] = `
+<div
+  className="grid grid-cols-1 grid-rows-homepage-mobile-description text-white mt-[87px] mb-[50px]"
+>
+  <div
+    className="bg-gradient-to-b from-primary-green to-primary-purple w-[110px] h-[110px] rounded-full ml-auto mr-auto flex justify-center items-center"
+  >
+    <p
+      className="text-[1.25rem]"
+    >
+      Why?
+    </p>
+  </div>
+  <div
+    className="h-[60px] w-[2px] bg-white opacity-[0.5] row-start-2 row-end-2 ml-auto mr-auto md:none"
+  />
+  <div
+    className="bg-primary-green row-start-3 row-end-3 w-[190px] h-[110px] ml-auto mr-auto flex justify-center items-center pl-3 pr-3 rounded-[20px]"
+  >
+    <p
+      className="text-[0.938rem] leading-[1.063rem] text-center"
+    >
+      Works offline - once loaded, it can be used even without an internet connection
+    </p>
+  </div>
+  <div
+    className="h-[60px] w-[2px] bg-white opacity-[0.5] row-start-4 row-end-4 ml-auto mr-auto md:none"
+  />
+  <div
+    className="bg-primary-green row-start-5 row-end-5 w-[190px] h-[110px] ml-auto mr-auto flex justify-center items-center pl-3 pr-3 rounded-[20px]"
+  >
+    <p
+      className="text-[0.938rem] leading-[1.063rem] text-center"
+    >
+      Light - All pages are as small as possible, offering great performance on phones, tablets, monitors and more!
+    </p>
+  </div>
+  <div
+    className="h-[60px] w-[2px] bg-white opacity-[0.5] row-start-6 row-end-6 ml-auto mr-auto md:none"
+  />
+  <div
+    className="bg-primary-green row-start-7 row-end-7 w-[190px] h-[110px] ml-auto mr-auto flex justify-center items-center pl-3 pr-3 rounded-[20px]"
+  >
+    <p
+      className="text-[0.938rem] leading-[1.063rem] text-center"
+    >
+      Extremely fast - Optimized in multiple possible ways to offer the fastest possible experience
+    </p>
+  </div>
+  <div
+    className="h-[60px] w-[2px] bg-white opacity-[0.5] row-start-8 row-end-8 ml-auto mr-auto md:none"
+  />
+  <div
+    className="bg-primary-purple row-start-9 row-end-9 w-[190px] h-[110px] ml-auto mr-auto flex justify-center items-center pl-3 pr-3 rounded-[20px]"
+  >
+    <p
+      className="text-[0.938rem] leading-[1.063rem] text-center"
+    >
+      Announcements - Get notified before your task expires!
+    </p>
+  </div>
+  <div
+    className="h-[60px] w-[2px] bg-white opacity-[0.5] row-start-10 row-end-10 ml-auto mr-auto md:none"
+  />
+  <div
+    className="bg-primary-purple row-start-11 row-end-11 w-[190px] h-[110px] ml-auto mr-auto flex justify-center items-center pl-3 pr-3 rounded-[20px]"
+  >
+    <p
+      className="text-[0.938rem] leading-[1.063rem] text-center"
+    >
+      Downloadable - once loaded, it can be used even without an internet connection
+    </p>
+  </div>
+  <div
+    className="h-[60px] w-[2px] bg-white opacity-[0.5] row-start-12 row-end-12 ml-auto mr-auto md:none"
+  />
+  <div
+    className="bg-primary-purple row-start-13 row-end-13 w-[190px] h-[110px] ml-auto mr-auto flex justify-center items-center pl-3 pr-3 rounded-[20px]"
+  >
+    <p
+      className="text-[0.938rem] leading-[1.063rem] text-center"
+    >
+      Organized - Have as many categories as you need to fulfull your daily tasks
+    </p>
+  </div>
+</div>
+`;
+
 exports[`Tests the <Introduction> Component Takes and matches a snapshot 1`] = `
 Array [
   <div
