@@ -23,7 +23,14 @@ module.exports = {
       },
 
       gridTemplateRows: {
-        "homepage-mobile-description": "110px 60px 110px 60px 110px 60px 110px 60px 110px 60px 110px 60px 110px"
+        "homepage-mobile-description": "110px 60px 110px 60px 110px 60px 110px 60px 110px 60px 110px 60px 110px",
+        "homepage-tablet-description": "110px 138px 110px 138px 110px",
+      },
+
+      gridTemplateColumns: {
+        "homepage-tablet-description": "220px 100px 110px 100px 220px",
+        "homepage-laptop-description": "383px 150px 110px 150px 383px",
+        "homepage-screen-description": "383px 230px 110px 230px 383px",
       },
 
       gridRowStart: {

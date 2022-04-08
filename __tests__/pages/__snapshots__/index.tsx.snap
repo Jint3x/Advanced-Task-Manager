@@ -2,88 +2,356 @@
 
 exports[`Tests the <Description> Component Renders correctly 1`] = `
 <div
-  className="grid grid-cols-1 grid-rows-homepage-mobile-description text-white mt-[87px] mb-[50px]"
+  className="grid grid-cols-1 grid-rows-homepage-mobile-description text-white mt-[87px] mb-[50px] md:grid-cols-homepage-tablet-description md:grid-rows-homepage-tablet-description md:w-[750px] md:ml-auto md:mr-auto xl:grid-cols-homepage-laptop-description xl:w-[1176px] 3xl:w-[1256px] 3xl:grid-cols-homepage-screen-description"
 >
   <div
-    className="bg-gradient-to-b from-primary-green to-primary-purple w-[110px] h-[110px] rounded-full ml-auto mr-auto flex justify-center items-center"
+    className="bg-gradient-to-b from-primary-green to-primary-purple w-[110px] h-[110px] rounded-full ml-auto mr-auto flex justify-center items-center md:row-start-3 md:row-end-3 md:col-start-3 md:col-end-3 xl:bg-gradient-to-r"
   >
     <p
-      className="text-[1.25rem]"
+      className="text-[1.25rem] xl:text-[1.375rem]"
     >
       Why?
     </p>
   </div>
   <div
-    className="h-[60px] w-[2px] bg-white opacity-[0.5] row-start-2 row-end-2 ml-auto mr-auto md:none"
+    className="h-[60px] w-[2px] bg-white opacity-[0.5] row-start-2 row-end-2 ml-auto mr-auto md:hidden"
   />
   <div
-    className="bg-primary-green row-start-3 row-end-3 w-[190px] h-[110px] ml-auto mr-auto flex justify-center items-center pl-3 pr-3 rounded-[20px]"
+    className="h-[60px] w-[2px] bg-white opacity-[0.5] row-start-4 row-end-4 ml-auto mr-auto md:hidden"
+  />
+  <div
+    className="h-[60px] w-[2px] bg-white opacity-[0.5] row-start-6 row-end-6 ml-auto mr-auto md:hidden"
+  />
+  <div
+    className="h-[60px] w-[2px] bg-white opacity-[0.5] row-start-8 row-end-8 ml-auto mr-auto md:hidden"
+  />
+  <div
+    className="h-[60px] w-[2px] bg-white opacity-[0.5] row-start-10 row-end-10 ml-auto mr-auto md:hidden"
+  />
+  <div
+    className="h-[60px] w-[2px] bg-white opacity-[0.5] row-start-12 row-end-12 ml-auto mr-auto md:hidden"
+  />
+  <div
+    className="bg-primary-green row-start-3 row-end-3 md:row-start-1 md:row-end-1 md:col-start-1 md:col-end-1 w-[190px] h-[110px] ml-auto mr-auto flex justify-center items-center pl-3 pr-3 rounded-[20px] md:w-[220px] xl:w-[383px]"
   >
     <p
-      className="text-[0.938rem] leading-[1.063rem] text-center"
+      className="text-[0.938rem] leading-[1.063rem] text-center xl:text-[1.125rem] xl:leading-[1.313rem]"
     >
       Works offline - once loaded, it can be used even without an internet connection
     </p>
   </div>
   <div
-    className="h-[60px] w-[2px] bg-white opacity-[0.5] row-start-4 row-end-4 ml-auto mr-auto md:none"
-  />
-  <div
-    className="bg-primary-green row-start-5 row-end-5 w-[190px] h-[110px] ml-auto mr-auto flex justify-center items-center pl-3 pr-3 rounded-[20px]"
+    className="bg-primary-green row-start-5 row-end-5 md:row-start-3 md:row-end-3 md:col-start-1 md:col-end-1 w-[190px] h-[110px] ml-auto mr-auto flex justify-center items-center pl-3 pr-3 rounded-[20px] md:w-[220px] xl:w-[383px]"
   >
     <p
-      className="text-[0.938rem] leading-[1.063rem] text-center"
+      className="text-[0.938rem] leading-[1.063rem] text-center xl:text-[1.125rem] xl:leading-[1.313rem]"
     >
       Light - All pages are as small as possible, offering great performance on phones, tablets, monitors and more!
     </p>
   </div>
   <div
-    className="h-[60px] w-[2px] bg-white opacity-[0.5] row-start-6 row-end-6 ml-auto mr-auto md:none"
-  />
-  <div
-    className="bg-primary-green row-start-7 row-end-7 w-[190px] h-[110px] ml-auto mr-auto flex justify-center items-center pl-3 pr-3 rounded-[20px]"
+    className="bg-primary-green row-start-7 row-end-7 md:row-start-5 md:row-end-5 md:col-start-1 md:col-end-1 w-[190px] h-[110px] ml-auto mr-auto flex justify-center items-center pl-3 pr-3 rounded-[20px] md:w-[220px] xl:w-[383px]"
   >
     <p
-      className="text-[0.938rem] leading-[1.063rem] text-center"
+      className="text-[0.938rem] leading-[1.063rem] text-center xl:text-[1.125rem] xl:leading-[1.313rem]"
     >
       Extremely fast - Optimized in multiple possible ways to offer the fastest possible experience
     </p>
   </div>
   <div
-    className="h-[60px] w-[2px] bg-white opacity-[0.5] row-start-8 row-end-8 ml-auto mr-auto md:none"
-  />
-  <div
-    className="bg-primary-purple row-start-9 row-end-9 w-[190px] h-[110px] ml-auto mr-auto flex justify-center items-center pl-3 pr-3 rounded-[20px]"
+    className="bg-primary-purple row-start-9 row-end-9 md:row-start-1 md:row-end-1 md:col-start-5 md:col-end-5 w-[190px] h-[110px] ml-auto mr-auto flex justify-center items-center pl-3 pr-3 rounded-[20px] md:w-[220px] xl:w-[383px]"
   >
     <p
-      className="text-[0.938rem] leading-[1.063rem] text-center"
+      className="text-[0.938rem] leading-[1.063rem] text-center xl:text-[1.125rem] xl:leading-[1.313rem]"
     >
       Announcements - Get notified before your task expires!
     </p>
   </div>
   <div
-    className="h-[60px] w-[2px] bg-white opacity-[0.5] row-start-10 row-end-10 ml-auto mr-auto md:none"
-  />
-  <div
-    className="bg-primary-purple row-start-11 row-end-11 w-[190px] h-[110px] ml-auto mr-auto flex justify-center items-center pl-3 pr-3 rounded-[20px]"
+    className="bg-primary-purple row-start-11 row-end-11 md:row-start-3 md:row-end-3 md:col-start-5 md:col-end-5 w-[190px] h-[110px] ml-auto mr-auto flex justify-center items-center pl-3 pr-3 rounded-[20px] md:w-[220px] xl:w-[383px]"
   >
     <p
-      className="text-[0.938rem] leading-[1.063rem] text-center"
+      className="text-[0.938rem] leading-[1.063rem] text-center xl:text-[1.125rem] xl:leading-[1.313rem]"
     >
       Downloadable - once loaded, it can be used even without an internet connection
     </p>
   </div>
   <div
-    className="h-[60px] w-[2px] bg-white opacity-[0.5] row-start-12 row-end-12 ml-auto mr-auto md:none"
-  />
-  <div
-    className="bg-primary-purple row-start-13 row-end-13 w-[190px] h-[110px] ml-auto mr-auto flex justify-center items-center pl-3 pr-3 rounded-[20px]"
+    className="bg-primary-purple row-start-13 row-end-13 md:row-start-5 md:row-end-5 md:col-start-5 md:col-end-5 w-[190px] h-[110px] ml-auto mr-auto flex justify-center items-center pl-3 pr-3 rounded-[20px] md:w-[220px] xl:w-[383px]"
   >
     <p
-      className="text-[0.938rem] leading-[1.063rem] text-center"
+      className="text-[0.938rem] leading-[1.063rem] text-center xl:text-[1.125rem] xl:leading-[1.313rem]"
     >
       Organized - Have as many categories as you need to fulfull your daily tasks
     </p>
+  </div>
+  <div
+    className="hidden md:block h-[475px] w-[102px] md:row-start-1 md:row-end-5 md:col-start-2 md:col-end-2 mt-[53px] xl:w-[150px] 3xl:w-[230px] 3xl:h-[498px]"
+  >
+    <svg
+      className="opacity-[0.5] w-[102px] h-[475px] ml-0 xl:w-[150px] xl:h-[498px] 3xl:w-[230px]"
+    >
+      <line
+        className="xl:hidden"
+        stroke="white"
+        strokeWidth="2px"
+        x1="62"
+        x2="62"
+        y1="0"
+        y2="475"
+      />
+      <line
+        className="md:hidden xl:block 3xl:hidden"
+        stroke="white"
+        strokeWidth="2px"
+        x1="62"
+        x2="62"
+        y1="0"
+        y2="498"
+      />
+      <line
+        className="md:hidden 3xl:block"
+        stroke="white"
+        strokeWidth="2px"
+        x1="120"
+        x2="120"
+        y1="0"
+        y2="498"
+      />
+      <line
+        className="3xl:hidden"
+        stroke="white"
+        strokeWidth="2px"
+        x1="0"
+        x2="62"
+        y1="1"
+        y2="1"
+      />
+      <line
+        className="md:hidden 3xl:block"
+        stroke="white"
+        strokeWidth="2px"
+        x1="0"
+        x2="120"
+        y1="1"
+        y2="1"
+      />
+      <line
+        className="xl:hidden"
+        stroke="white"
+        strokeWidth="2px"
+        x1="0"
+        x2="62"
+        y1="244"
+        y2="244"
+      />
+      <line
+        className="md:hidden xl:block 3xl:hidden"
+        stroke="white"
+        strokeWidth="2px"
+        x1="0"
+        x2="62"
+        y1="249"
+        y2="249"
+      />
+      <line
+        className="md:hidden 3xl:block"
+        stroke="white"
+        strokeWidth="2px"
+        x1="0"
+        x2="120"
+        y1="249"
+        y2="249"
+      />
+      <line
+        className="xl:hidden"
+        stroke="white"
+        strokeWidth="2px"
+        x1="0"
+        x2="62"
+        y1="474"
+        y2="474"
+      />
+      <line
+        className="md:hidden xl:block 3xl:hidden"
+        stroke="white"
+        strokeWidth="2px"
+        x1="0"
+        x2="62"
+        y1="497"
+        y2="497"
+      />
+      <line
+        className="md:hidden 3xl:block"
+        stroke="white"
+        strokeWidth="2px"
+        x1="0"
+        x2="120"
+        y1="497"
+        y2="497"
+      />
+      <line
+        className="xl:hidden"
+        stroke="white"
+        strokeWidth="2px"
+        x1="62"
+        x2="102"
+        y1="244"
+        y2="244"
+      />
+      <line
+        className="md:hidden xl:block 3xl:hidden"
+        stroke="white"
+        strokeWidth="2px"
+        x1="62"
+        x2="150"
+        y1="249"
+        y2="249"
+      />
+      <line
+        className="md:hidden 3xl:block"
+        stroke="white"
+        strokeWidth="2px"
+        x1="120"
+        x2="230"
+        y1="249"
+        y2="249"
+      />
+    </svg>
+  </div>
+  <div
+    className="hidden md:block scale-x-[-1] scale-y-[1] h-[475px] w-[102px] md:row-start-1 md:row-end-5 md:col-start-4 md:col-end-4 mt-[53px] xl:w-[150px] 3xl:w-[230px] 3xl:h-[498px]"
+  >
+    <svg
+      className="opacity-[0.5] w-[102px] h-[475px] ml-0 xl:w-[150px] xl:h-[498px] 3xl:w-[230px]"
+    >
+      <line
+        className="xl:hidden"
+        stroke="white"
+        strokeWidth="2px"
+        x1="62"
+        x2="62"
+        y1="0"
+        y2="475"
+      />
+      <line
+        className="md:hidden xl:block 3xl:hidden"
+        stroke="white"
+        strokeWidth="2px"
+        x1="62"
+        x2="62"
+        y1="0"
+        y2="498"
+      />
+      <line
+        className="md:hidden 3xl:block"
+        stroke="white"
+        strokeWidth="2px"
+        x1="120"
+        x2="120"
+        y1="0"
+        y2="498"
+      />
+      <line
+        className="3xl:hidden"
+        stroke="white"
+        strokeWidth="2px"
+        x1="0"
+        x2="62"
+        y1="1"
+        y2="1"
+      />
+      <line
+        className="md:hidden 3xl:block"
+        stroke="white"
+        strokeWidth="2px"
+        x1="0"
+        x2="120"
+        y1="1"
+        y2="1"
+      />
+      <line
+        className="xl:hidden"
+        stroke="white"
+        strokeWidth="2px"
+        x1="0"
+        x2="62"
+        y1="244"
+        y2="244"
+      />
+      <line
+        className="md:hidden xl:block 3xl:hidden"
+        stroke="white"
+        strokeWidth="2px"
+        x1="0"
+        x2="62"
+        y1="249"
+        y2="249"
+      />
+      <line
+        className="md:hidden 3xl:block"
+        stroke="white"
+        strokeWidth="2px"
+        x1="0"
+        x2="120"
+        y1="249"
+        y2="249"
+      />
+      <line
+        className="xl:hidden"
+        stroke="white"
+        strokeWidth="2px"
+        x1="0"
+        x2="62"
+        y1="474"
+        y2="474"
+      />
+      <line
+        className="md:hidden xl:block 3xl:hidden"
+        stroke="white"
+        strokeWidth="2px"
+        x1="0"
+        x2="62"
+        y1="497"
+        y2="497"
+      />
+      <line
+        className="md:hidden 3xl:block"
+        stroke="white"
+        strokeWidth="2px"
+        x1="0"
+        x2="120"
+        y1="497"
+        y2="497"
+      />
+      <line
+        className="xl:hidden"
+        stroke="white"
+        strokeWidth="2px"
+        x1="62"
+        x2="102"
+        y1="244"
+        y2="244"
+      />
+      <line
+        className="md:hidden xl:block 3xl:hidden"
+        stroke="white"
+        strokeWidth="2px"
+        x1="62"
+        x2="150"
+        y1="249"
+        y2="249"
+      />
+      <line
+        className="md:hidden 3xl:block"
+        stroke="white"
+        strokeWidth="2px"
+        x1="120"
+        x2="230"
+        y1="249"
+        y2="249"
+      />
+    </svg>
   </div>
 </div>
 `;
