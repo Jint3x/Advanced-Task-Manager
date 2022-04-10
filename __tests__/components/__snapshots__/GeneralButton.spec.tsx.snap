@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests component: <GeneralButton /> Takes a snapshot of the button 1`] = `
+<button
+  className="rounded-[10px] text-base md:text-xl \\" class1 class2 class3"
+  onClick={[Function]}
+>
+  Click me!
+</button>
+`;
