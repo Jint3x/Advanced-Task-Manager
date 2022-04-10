@@ -7,7 +7,11 @@ module.exports = {
     extend: {
       colors: {
         "primary-purple": "#D05ECC",
+        "primary-purple-hover": "#AF46AB",
+        "primary-purple-active": "#982A94",
         "primary-green": "#00A053",
+        "primary-green-hover": "#008646",
+        "primary-green-active": "#006534",
         "background-black": "#161616"
       },
 
